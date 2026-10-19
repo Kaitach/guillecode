@@ -38,4 +38,6 @@ Las capturas reales anteriores y posteriores están en la carpeta privada de evi
 
 [Release 0.14.7](https://github.com/Kaitach/guillecode/releases/tag/v0.14.7) publicada con sus cuatro artefactos. [Workflow de publicación](https://github.com/Kaitach/guillecode/actions/runs/39297002209) terminado correctamente: comprueba los artefactos descargados, el manifiesto y el SHA256. La verificación criptográfica del instalador y las pruebas de código se realizaron localmente; no se atribuyen a ese workflow.
 
+La primera build 0.14.7 se publicó antes de fijar el canal al repositorio original. La instalación local fue reconstruida y reinstalada desde `1ccb824` con el manifiesto y la clave oficial de `GuillermoPastoriniRivas/guillecode`. El workflow de publicación fue cerrado en este repositorio para impedir nuevas releases del fork. Las instalaciones antiguas que no recibieron esta build conservan la configuración que tenían hasta que instalen una versión nueva.
+
 [PR #8 al repositorio original](https://github.com/GuillermoPastoriniRivas/guillecode/pull/8), basado en su main posterior al merge del PR #7. Incluye las funciones, pruebas y documentación de uso, conservando versión, clave y canal de actualizaciones originales. Al consultar el PR quedó abierto y sin conflictos; no había checks de CI registrados.
