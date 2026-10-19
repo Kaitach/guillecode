@@ -32,4 +32,4 @@ La demo se verificó también directamente: 12 pruebas HTTP aprobadas, incluidos
 
 Se verificó en la app instalada su sección independiente con campo enmascarado. Las pruebas de interfaz conectan únicamente Zen, seleccionan sus modelos gratuitos o de pago y conectan Go después sin sobrescribir su clave. El catálogo nativo acepta Zen sin Go. No se proporcionó una clave real de Zen: no se declara validada una generación ni un saldo de pago.
 
-Los cuatro artefactos firmados se publicaron con el workflow [Publicar GuilleCode 0.14.6](https://github.com/Kaitach/guillecode/actions/runs/39287774263), que terminó correctamente y verificó manifiesto, firma declarada y SHA256 descargado. La compilación y las demás pruebas anteriores se ejecutaron localmente; no se atribuyen a una preparación de release en CI.
+Los cuatro artefactos de la versión se publicaron con el workflow [Publicar GuilleCode 0.14.6](https://github.com/Kaitach/guillecode/actions/runs/39287774263), que terminó correctamente y verificó manifiesto, firma declarada y SHA256 descargado. La compilación y las demás pruebas anteriores se ejecutaron localmente; no se atribuyen a una preparación de release en CI.
