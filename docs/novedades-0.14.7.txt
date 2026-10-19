@@ -1,0 +1,1 @@
+El chat de equipos ahora permite adjuntar, pegar y arrastrar imágenes, verlas y recuperarlas al reiniciar. Los adjuntos llegan al Lead y a los agentes como imágenes reales. Configuración muestra el proveedor, modelo y razonamiento de cada integrante, con el modelo usado por cada intento.
